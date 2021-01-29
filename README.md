@@ -19,7 +19,7 @@ static search | searches for videos | query: string [page: number] | Promise<Vid
 static taggedVideos | gets videos containing a specific tag | tag: string [page: number] | Promise<Video[]>
 static tags | gets all available tags | | Promise<string[]>
 
-## Instalation
+## Installation
 
 ```bash
   npm install naughty-videos
