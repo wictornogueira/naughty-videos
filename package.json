@@ -1,0 +1,22 @@
+{
+  "name": "naughty-videos",
+  "description": "An API for naughty websites ¯\\_( ͡° ͜ʖ ͡°)_/¯",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p tsconfig.json",
+    "build:esm": "tsc -p tsconfig-esm.json",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
