@@ -6,6 +6,7 @@
   "module": "./dist/esm/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
+  "keywords": ["xvideos", "api", "scrapper", "naughty", "videos", "porn"],
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p tsconfig.json",
